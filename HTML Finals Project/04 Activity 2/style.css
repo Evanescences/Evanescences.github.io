@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    overflow-x:hidden;
+    background-color: burlywood;
+}
+
+
+#ans{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #facc88;
+    font-size: x-large;
+    width: 75%;
+    border-radius: 4px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+i{  
+    top: 20px;
+    left: 70px;
+    position: absolute;
+    font-size: 30px;
+}
+
+ 
+
+h1, h3, #inst{
+    color: #facc88;
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: fit-content;
+    background-color: #585235;
+}
+
+.top{
+    margin-top: 9em;
+    text-align: center;
+}

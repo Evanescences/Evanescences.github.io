@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(140, 172, 170);
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+.container{
+    width: 100%;
+    height: fit-content;
+    display: inline-block;
+}
+
+
+ 
+
+
+
+h2, #this, #ins{
+    color: black;    
+    width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+i{      
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+#homei{
+    
+    font-size: xx-large;
+    color: black;
+    text-decoration: none;
+}
+ 
+c 
+ 
+.home,i{
+
+    text-decoration: none;
+    color: black;
+    
+}
+
+.body{
+    margin-right: auto;
+    margin-left: 75px;
+    padding-top: 20px;
+    text-align: justify;
+    width: 50%;
+}

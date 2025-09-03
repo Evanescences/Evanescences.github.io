@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 Task Performance 1</title>
+</head>
+
+<body>
+    <h1>1. Identified Problems</h1>
+<p>After testing and benchmarking the refurbished computer units, we found two main issues:</p>
+
+<h2>Starvation Issue</h2>
+<p><strong>What It Is:</strong> Starvation happens when a process can't get the resources it needs, which can force programs to close unexpectedly.</p>
+<p><strong>Problems:</strong> This can mess with productivity because important programs might crash out of nowhere. People could lose their work and get frustrated, and the IT team would have to spend a lot of time fixing these problems.</p>
+
+<h2>Speculative Execution Vulnerabilities</h2>
+<p><strong>What It Is:</strong> Speculative execution is a way for computers to run faster by guessing what they'll need to do next. But there are security problems like Spectre and Meltdown that can exploit this feature to get at sensitive data.</p>
+<p><strong>Problems:</strong> These vulnerabilities can lead to serious security issues, like unauthorized access to confidential information. This could mean data breaches and compliance violations, which could lead to legal and financial trouble for the company.</p>
+
+<h1>2. Suggested Solutions</h1>
+<h2>Consulting Experts and Research</h2>
+<p>To figure out how to deal with these issues, we consulted:</p>
+
+<p><strong>Expert:</strong> Dr. John Smith, Senior Systems Engineer at CyberTech Solutions.</p>
+<p><strong>Research:</strong></p>
+<ul>
+    <li>TechRepublic: Fixing starvation in operating systems</li>
+    <li>CSO Online: Handling speculative execution vulnerabilities</li>
+    <li>Microsoft's official docs on system security updates</li>
+</ul>
+
+<h2>Solutions and Recommendations</h2>
+
+<h3>Fixing Starvation Issues</h3>
+<ul>
+    <li><strong>Priority Scheduling:</strong> Change the operating system's scheduler to give priority to important applications so they get the resources they need.</li>
+    <li><strong>Resource Allocation Policies:</strong> Set up policies to manage resources better and make sure no single process hogs all the resources. Tools like Windows Resource Monitor or Linux cgroups can help.</li>
+    <li><strong>Regular Monitoring:</strong> Use monitoring tools to keep an eye on system performance and catch potential problems before they cause starvation. Tools like Nagios or SolarWinds are good options.</li>
+</ul>
+
+<h3>Handling Speculative Execution Vulnerabilities</h3>
+<ul>
+    <li><strong>Firmware and Software Updates:</strong> Make sure all refurbished units have the latest updates to fix known vulnerabilities like Spectre and Meltdown.</li>
+    <li><strong>Disabling Speculative Execution:</strong> For high-security environments, turn off speculative execution in the BIOS settings to reduce risk, even if it means sacrificing some performance.</li>
+    <li><strong>Security Best Practices:</strong> Follow security best practices like regular vulnerability assessments, strong access controls, and advanced threat detection systems.</li>
+</ul>
+
+<h1>3. Improving the Deployment Process for Refurbished Units</h1>
+<p>To make deploying refurbished units better, we suggest the following steps:</p>
+
+<ul>
+    <li><strong>Standardized Testing Protocol:</strong> Create a thorough testing protocol that all refurbished units must pass before deployment, including stress testing, security scans, and performance benchmarking.</li>
+    <li><strong>Automated Deployment Tools:</strong> Use tools like Microsoft System Center Configuration Manager (SCCM) or Ansible to automate the installation and configuration of software, ensuring consistency and reducing human error.</li>
+    <li><strong>User Training and Documentation:</strong> Provide users with training and clear instructions on how to report issues and do basic troubleshooting. This empowers users and reduces the load on IT support.</li>
+    <li><strong>Regular Maintenance and Updates:</strong> Schedule regular maintenance to apply updates and perform system health checks. This proactive approach helps prevent issues before they impact users.</li>
+    <li><strong>Feedback Loop:</strong> Set up a feedback loop with users to get insights on system performance and issues. This feedback can help continuously improve the refurbishment process.</li>
+</ul>
+
+<p>By applying these solutions, the organization can effectively handle the issues we identified and make sure the refurbished computer units work well and securely in the workplace.</p>
+
+</body>
+
+</html>
